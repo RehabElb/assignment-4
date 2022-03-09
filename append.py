@@ -1,10 +1,9 @@
 def append_size(lst):
-  lst.append(len(lst))
+  lst.append(len(lst)) # here we are3 adding the len of the list to the end of the same list 
   return lst
 
-list_1 = [2, 3, 5, 8, 4, 4, 6, 2]
-
-print(append_size(list_1))
+list_1 = [23, 42, 108]
+# print(append_size(list_1))
 
 
 list_2 = [1,1,2]
@@ -14,4 +13,5 @@ def append_sum(lst):
     return lst
 
 print(append_sum(list_2))
-print(append_sum(list_1))
+# print(append_sum(list_1))
+
